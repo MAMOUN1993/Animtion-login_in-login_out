@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Lilita One', cursive;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.background{
+    position: absolute;
+    width: 50%;
+    background-color: #fd3e81;
+    z-index: 4;
+    height: 80vh;
+    transition-duration: 0.5s;
+
+}
+.container{
+    margin: 50px auto;
+    position: relative;
+    height: 80vh;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px ;
+}
+.main_in{
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    background-color: white;
+    transition-duration: 0.5s;
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 80vh;
+}
+.main_in h1 {
+    font-size: 42px;
+    font-weight: 100;
+}
+.main_in .icone {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.input p{
+    color: gray;
+}
+.em{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #80808038;
+    width: 90%;
+}
+.pass{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #80808038;
+    width: 90%
+}
+.froget{
+    color: gray;
+    font-size: 18px;
+}
+.button_in{
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #fd3e81;
+    color: white;
+    border: 1px solid white;
+    width: 50%;
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+}   
+.main_in .icone i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #80808038;
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+}
+.main_in .input{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    gap: 30px;
+}
+.main_in_tra{
+    position: absolute;
+    right: -50%;
+    width: 50%;
+    z-index: 5;
+    transition-duration: 0.5s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 25vh;
+    color: white;
+}
+.main_in_tra h1 {
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.main_in_tra p{
+    width: 60%;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.button_in_tra{
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #fd3e81;
+    color: white;
+    border: 1px solid white;
+    width: 40%;
+    letter-spacing: 1px;
+
+}
+.main_out_tra{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25vh;
+    gap: 30px;
+    color: white;
+    transition-duration: 0.5s;
+}
+.main_out_tra h1 {
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.main_out_tra p{
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.main_out{
+    position: absolute;
+    right: 50%;
+    width: 50%;
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 75px;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.main_out h1 {
+    font-size: 42px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.main_out .icone{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.main_out .icone i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #80808038;
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+}
+.out_put{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    gap: 30px;
+}
+.back_right_zero{
+    right: 0%;
+}
+.back_right_50{
+    right: 50%;
+}
+.back_right_050{
+    right: -50%;
+}
+.back_left_50{
+    left: 50%;
+}
+.back_left_zero{
+    left: 0%;
+}
+.back_left_050{
+    left: -50%;
+}
+.opacity_one{
+    opacity: 1;
+}
+.opacity_zero{
+    opacity: 0;
+}
+.zIndex2{
+    z-index: 2;
+}
+.zIndex3{
+    z-index: 3;
+}
+.stop{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 7;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #fd3e81;
+    color: white;
+    border: 1px solid white;
+    width: 15%;
+    letter-spacing: 1px;
+}
